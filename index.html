@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Short-Term Memory Test</h1>
+    <p>
+      Repeat the Tone!
+    </p>
+    
+    <p id="demo" >Game not started</p>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame1()">
+      Stop
+    </button>
+  
+    <div id="gameButtonArea">
+      <img src="https://cdn.glitch.com/bb6e07de-8d69-4052-86a7-13689ca4e841%2Ffavpng_button-blue-clip-art.png?v=1616311536301" id="img1" class="hidden" onmouseup="stopTone(1),guess(1)">
+      <button id="button1"  onmousedown="startTone(1)" onmouseup="stopTone(1)"></button>
+      <img src="https://cdn.glitch.com/bb6e07de-8d69-4052-86a7-13689ca4e841%2Ffavpng_button-clip-art%20(1).png?v=1616311538818" id="img2" class="hidden" onmouseup="stopTone(2),guess(2)">
+      <button id="button2"  onmousedown="startTone(2)" onmouseup="stopTone(2)"></button>
+      <img src="https://cdn.glitch.com/bb6e07de-8d69-4052-86a7-13689ca4e841%2Ffavpng_button-clip-art.png?v=1616311541193" id="img3" class="hidden" onmouseup="stopTone(3),guess(3)">
+      <button id="button3"  onmousedown="startTone(3)" onmouseup="stopTone(3)"></button>
+      <img src="https://cdn.glitch.com/bb6e07de-8d69-4052-86a7-13689ca4e841%2Ffavpng_button-green-clip-art.png?v=1616311544255" id="img4" class="hidden" onmouseup="stopTone(4),guess(4)">
+      <button id="button4"  onmousedown="startTone(4)" onmouseup="stopTone(4)"></button>
+      <img src="https://cdn.glitch.com/bb6e07de-8d69-4052-86a7-13689ca4e841%2Ffavpng_button-red-clip-art%20(1).png?v=1616311547106" id="img5" class="hidden" onmouseup="stopTone(5),guess(5)">
+      <button id="button5"  onmousedown="startTone(5)" onmouseup="stopTone(5)"></button>
+    </div>
+
+  </body>
+</html>
