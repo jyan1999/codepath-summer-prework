@@ -47,18 +47,25 @@ Patterns generated on the fly during each round as can be observed from these cl
 
 Start and stop:
 ![](https://i.imgur.com/WYaVS6T.gif)
+
 Gameplay and winning (3 rounds hardcoded):
 ![](https://i.imgur.com/uuAe3sp.gif)
+
 Speedsup:
 ![](https://i.imgur.com/Htlt5ID.gif)
+
 3 strikes (turn 1 and lose):
 ![](https://i.imgur.com/g8Eogoy.gif)
+
 3 strikes (turn 2+ and lose):
 ![](https://i.imgur.com/iQSbiNc.gif)
+
 design change:
 ![](https://i.imgur.com/37GVGIf.gif)
+
 timer increases each turn:
 ![](https://i.imgur.com/lMYy6qL.gif)
+
 timer runs out (lose the game as a design choice):
 ![](https://i.imgur.com/bnQ2Y7x.gif)
 
