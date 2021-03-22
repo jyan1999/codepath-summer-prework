@@ -6,9 +6,7 @@ Submitted by: **Zeyi Yan**
 
 Time spent: **6** hours spent in total
 
-Link to project: Live site: https://maize-four-scarecrow.glitch.me
-
-code: https://glitch.com/edit/#!/maize-four-scarecrow
+Link to project: code: https://glitch.com/edit/#!/maize-four-scarecrow
 
 ## Required Functionality
 
